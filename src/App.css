@@ -742,7 +742,61 @@ body {
 }
 
 @media print {
-  .input-panel, .floating-print-btn, .modal-overlay { display: none !important; }
-  .preview-panel { padding: 0; margin: 0; background: none; display: block !important; }
-  .a4-page { box-shadow: none; margin: 0; padding: 5mm; page-break-after: always; display: flex !important; }
+  @page {
+    size: A4;
+    margin: 0; /* 彻底移除浏览器默认边距 */
+  }
+
+  html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 210mm !important;
+    height: auto !important;
+  }
+
+  /* 强制重置所有可能截断高度的父容器 */
+  #root, .app-container {
+    height: auto !important;
+    min-height: auto !important;
+    overflow: visible !important;
+    display: block !important;
+  }
+
+  .input-panel, .floating-print-btn, .modal-overlay {
+    display: none !important;
+  }
+
+  .preview-panel {
+    position: static !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    background: none !important;
+    display: block !important;
+    width: 210mm !important;
+  }
+
+  .a4-page {
+    position: relative !important;
+    box-shadow: none !important;
+    margin: 0 !important;
+    padding: 5mm !important;
+    page-break-after: always !important;
+    page-break-inside: avoid !important;
+    display: flex !important;
+    width: 210mm !important;
+    /* 核心修复：稍微减小 0.5mm 解决浏览器舍入误差导致的溢出 */
+    height: 296.5mm !important; 
+    overflow: hidden !important;
+  }
+
+  /* 核心修复：防止最后一页产生空白页 */
+  .a4-page:last-child {
+    page-break-after: auto !important;
+  }
+
+  /* 移除打印时的任何背景色干扰 */
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
 }
