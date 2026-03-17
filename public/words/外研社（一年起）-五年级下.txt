@@ -1,8 +1,10 @@
+- Module 1
 drive 驾驶
 drove (drive的过去式)驾驶
 player 演奏者
 office 办公室
 fish 捕鱼，钓鱼
+- Module 2
 *sausage 香肠
 sandwich 三明治
 *fish and chips 炸鱼加炸薯条
@@ -10,25 +12,28 @@ traditional 传统的
 dish 食品，菜肴
 delicious 美味的
 chicken 鸡肉
+- Module 3
 *DVD 数字化视频光盘
-*librarian 图书馆管理员；
+*librarian 图书馆管理员；图书馆馆长
 show 给(某人)看
 borrow 借入，借来
-sent (send的过去式)寄
+- Module 4
+sent (send的过去式)寄，发送
 American 美国的；美国人的
 read (read的过去式)阅读
-interesting 令人感兴趣的；
-有趣的
+interesting 令人感兴趣的；有趣的
 season 季节
 snow 雪
-How much...? ……多少钱？
+- Module 5
+How much ……多少钱？
 light 轻的
 *sales assistant 售货员，营业员
 carry 提；抱；扛；背；搬
 pound 英镑
 back 背，背部
-over 在……的上方
+over 在……的上方，在……的上面
 shoulder 肩，肩膀
+- Module 6
 build 建造
 place 地方
 thousand (数字)一千
@@ -42,10 +47,12 @@ hour 小时
 take 搭乘，乘坐
 short 短暂的，短期的
 *helicopter 直升机
+- Module 7
 evening 傍晚，晚上
 actor 演员
 busy 忙的，忙碌的
 quarter 一刻钟
+- Module 8
 Chinese 中国人的
 drew (draw的过去式)绘画，画
 piece 张，片，块
@@ -54,6 +61,7 @@ scissors (常复)剪刀
 stick 棍，棒
 tied (tie的过去式)扎上，系上
 *string 线，细绳
+- Module 9
 theatre 剧院
 men (man的复数形式)男人
 women (woman的复数形式)女人
@@ -64,6 +72,7 @@ show 演出，表演
 put (put的过去式)放置
 history 历史；历史学
 subject 学科，科目
+- Module 10
 ticket 票
 passport 护照
 leave 离开，动身
