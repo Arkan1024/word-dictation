@@ -44,23 +44,19 @@ const App: React.FC = () => {
   useEffect(() => {
     const fetchLibraryList = async () => {
       try {
-        const response = await fetch('/words/');
-        const contentType = response.headers.get('content-type');
-        if (!contentType || !contentType.includes('application/json')) throw new Error('Not JSON');
+        // 在静态托管环境下，必须通过 list.json 获取文件列表
+        const response = await fetch('words/list.json');
+        if (!response.ok) throw new Error('list.json not found');
         const data = await response.json();
         if (Array.isArray(data)) {
-          const txtFiles = data.filter((item: any) => item.type === 'file' && item.name.endsWith('.txt'))
-            .map((item: any) => ({ label: item.name.replace('.txt', ''), path: `/words/${item.name}` }));
+          const txtFiles = data.map((name: string) => ({
+            label: name.replace('.txt', ''),
+            path: `words/${name.endsWith('.txt') ? name : name + '.txt'}`
+          }));
           setLibraryOptions(txtFiles);
         }
       } catch (error) {
-        try {
-          const fallback = await fetch('/words/list.json');
-          const data = await fallback.json();
-          if (Array.isArray(data)) {
-            setLibraryOptions(data.map((name: string) => ({ label: name.replace('.txt', ''), path: `/words/${name.endsWith('.txt') ? name : name + '.txt'}` })));
-          }
-        } catch (e) { console.error('Load fail'); }
+        console.error('Library load error:', error);
       }
     };
     fetchLibraryList();

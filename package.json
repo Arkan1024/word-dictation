@@ -16,8 +16,10 @@
     "vite": "^4.3.9"
   },
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
+    "dev": "npm run update-words && vite",
+    "build": "npm run update-words && tsc && vite build",
+    "update-words": "node update-word-list.js",
     "preview": "vite preview"
-  }
+  },
+
 }

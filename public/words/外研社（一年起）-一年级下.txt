@@ -1,0 +1,80 @@
+he 他
+doctor 医生
+she 她
+nurse 护士
+driver 司机
+policeman 警察
+pupil 学生
+me 我（宾格）
+where 哪里
+where’s = where is 在哪里
+in 在…… 里
+on 在…… 上
+under 在…… 下
+toy 玩具
+bed 床
+bear 熊
+hat 帽子
+one 一
+two 二
+three 三
+four 四
+five 五
+six 六
+seven 七
+eight 八
+nine 九
+ten 十
+how many 多少
+count 数一数
+head 头
+nose 鼻子
+face 脸
+ear 耳朵
+mouth 嘴
+eye 眼睛
+body 身体
+these 这些
+leg 腿
+hand 手
+foot 脚（单数）
+feet 脚（复数）
+cow 奶牛
+farm 农场
+pig 猪
+chicken 鸡
+egg 鸡蛋
+thin 瘦的
+fat 胖的
+baby 婴儿；幼崽
+little 小的
+big 大的
+pink 粉红色
+very 非常
+snake 蛇
+long 长的
+zoo 动物园
+short 短的；矮的
+tall 高的
+lion 狮子
+cute 可爱的
+scary 可怕的
+there is 有（单数）
+cat 猫
+tree 树
+there are 有（复数）
+monkey 猴子
+brown 棕色的
+shorts 短裤
+duck 鸭子
+football 足球
+like 喜欢
+sport 运动
+football 足球
+basketball 篮球
+ping-pong 乒乓球
+swimming 游泳
+let’s = let us 让我们
+play 玩；参加
+sing 唱歌
+dance 跳舞
