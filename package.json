@@ -18,7 +18,7 @@
   "scripts": {
     "dev": "npm run update-words && vite",
     "build": "npm run update-words && tsc && vite build",
-    "update-words": "node update-word-list.js",
+    "update-words": "node update-word-list.cjs",
     "preview": "vite preview"
   }
 }
