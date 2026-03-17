@@ -20,6 +20,5 @@
     "build": "npm run update-words && tsc && vite build",
     "update-words": "node update-word-list.js",
     "preview": "vite preview"
-  },
-
+  }
 }
