@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  word-dictation:
+    build: .
+    container_name: word-dictation-app
+    ports:
+      - "8080:80"
+    volumes:
+      # 映射词库目录，方便宿主机直接修改词库
+      - ./public/words:/usr/share/nginx/html/words
+    restart: always
